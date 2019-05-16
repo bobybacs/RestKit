@@ -7,6 +7,10 @@
 //
 
 #import "RKTestEnvironment.h"
+
+#ifdef TARGET_OS_MAC
+#else
+
 #import "UIImageView+AFRKNetworking.h"
 
 // Re-defining the interface for AFRKImageCache since it's only privately declared in UIImageView+AFRKNetworking.m.
@@ -112,3 +116,5 @@
 }
 
 @end
+
+#endif
