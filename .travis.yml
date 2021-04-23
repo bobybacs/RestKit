@@ -1,4 +1,4 @@
-osx_image: xcode10.2
+osx_image: xcode11
 language: objective-c
 rvm: 2.4.2
 cache:
